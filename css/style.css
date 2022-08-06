@@ -47,8 +47,8 @@
     display: flex;
   }
 
-.nav-items .item:not(:last-child) {
-    margin-right: 50px;
+.nav-items:last-child {
+    margin-right: 0px;
 }
     
 .span__logo {
@@ -102,6 +102,25 @@
 
 .nav-adress {
     display: flex;
+    margin-left: auto;
+    
+}
+
+.nav-adress {
+    margin-left: 50px;
+}
+
+.nav-adress:hover .btn-mail {
+    fill: #2196F3;
+    color: #2196F3;
+}
+
+.nav-contacts {
+    margin-left: 50px;
+}
+
+.nav-contacts:first-child {
+    margin-left: 0px;
 }
 
 .contacts.item:not(:last-child) {
@@ -109,10 +128,25 @@
 
 }
 
+.hover-icon:hover {
+    fill: var(--accent-text-color);
+}
+
+
+.btn-mail {
+    width: 16px;
+    height: 12px;
+    cursor: pointer;
+    fill: #757575;
+    margin-right: 10px;
+}
+
+.btn-mail:hover {
+    fill: #2196F3;
+}   
+
 
 .contacts-item {
-    margin-left: 50px;
-
 
     text-decoration: none;
     font-family: 'Roboto';
@@ -125,16 +159,34 @@
     color: var(--contacts-text-color);
 }
 
+
 .contacts-item:hover {
-color: var(--accent-text-color);
+    color: var(--accent-text-color);
 }
+
+
 
 .hero__section {
 
- width: 100%;
- padding: 200px 0px;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
 
-background-color: var(--primary-background-color);
+    width: 100%;
+    padding: 200px 0px;
+
+    background-color: var(--primary-background-color);
+    background-image: url("../images/our\ team.jpg");
+    background-color: #2F303A;
+    outline: 1px, solid #C4C4C4;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: -200px -93px 74px 200px rgba(47,48,58,0.42) inset;
+    -webkit-box-shadow: -200px -93px 74px 200px rgba(47,48,58,0.42) inset;
+-moz-box-shadow: -200px -93px 74px 200px rgba(47,48,58,0.42) inset;
+
 
 }
 
