@@ -107,8 +107,10 @@
 }
 
 .nav-adress {
-    margin-left: 50px;
+    
 }
+
+
 
 .nav-adress:hover .btn-mail {
     fill: #2196F3;
@@ -116,7 +118,7 @@
 }
 
 .nav-contacts {
-    margin-left: 50px;
+    margin-left: px;
 }
 
 .nav-contacts:first-child {
@@ -139,11 +141,27 @@
     cursor: pointer;
     fill: #757575;
     margin-right: 10px;
+   
 }
 
 .btn-mail:hover {
     fill: #2196F3;
 }   
+
+.btn-phone {
+    width: 16px;
+    height: 12px;
+    cursor: pointer;
+    fill: #757575;
+    margin-right: 10px;
+    margin-left: 30px;
+    
+}
+
+.btn-phone:hover {
+    fill: #2196F3;
+}   
+
 
 
 .contacts-item {
@@ -241,6 +259,34 @@
  }
  
 
+.functions__icon:before {
+    display: inline-block;
+    content: '';
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+    background-color: #F5F4FA;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.functions__icon.first-icon::before {
+   background-image: url("/images/Group.svg");
+}
+
+.functions__icon.second-icon::before {
+    background-image: url("/images/clock\ 1.svg");
+ }
+
+ .functions__icon.three-icon::before {
+    background-image: url("/images/diagram\ 1.svg");
+ }
+
+ .functions__icon.four-icon::before {
+    background-image: url("/images/astronaut\ 1.svg");
+ }
 
 .functions {
     display: flex;
@@ -362,7 +408,7 @@
     
     
    width: 270px;
-   height: 368px;
+    height: 428px;
    
    background: var(--title-text-color);
    
@@ -404,6 +450,36 @@
 
     color: #757575;
    
+}
+
+
+.worker-icons {
+    display: flex;
+}
+
+.icons-background {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    width: 44px;
+    height: 44px;
+    margin-right: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icons-background:hover {
+    background-color: #2196F3;
+}
+
+.card-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.icons-background:hover .card-icon {
+    fill: #FFFFFF;
 }
 
 
