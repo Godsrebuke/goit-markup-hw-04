@@ -262,19 +262,19 @@
 }
 
 .functions__icon.first-icon::before {
-   background-image: url("/images/Group.svg");
+   background-image: url("../images/Group.svg");
 }
 
 .functions__icon.second-icon::before {
-    background-image: url("/images/clock\ 1.svg");
+    background-image: url("../images/clock\ 1.svg");
  }
 
  .functions__icon.three-icon::before {
-    background-image: url("/images/diagram\ 1.svg");
+    background-image: url("../images/diagram\ 1.svg");
  }
 
  .functions__icon.four-icon::before {
-    background-image: url("/images/astronaut\ 1.svg");
+    background-image: url("..z/images/astronaut\ 1.svg");
  }
 
 .functions {
