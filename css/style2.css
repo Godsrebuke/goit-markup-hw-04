@@ -22,14 +22,18 @@
    align-items: center;
 }
 
-.nav-container {
-
+  .container {
    margin-left: auto;
    margin-right: auto;
-   width: 1200px;
+   width: 1200;
 
 }
 
+.nav-container {
+   margin-left: auto;
+   margin-right: auto;
+   width: 1200px;
+}
 
 .nav-menu {
    display: flex;
@@ -41,8 +45,8 @@
    display: flex;
  }
 
-.nav-items .item:not(:last-child) {
-   margin-right: 50px;
+.nav-items:last-child {
+   margin-right: 0px;
 }
    
 .span__logo {
@@ -96,17 +100,52 @@
 
 .nav-adress {
    display: flex;
+   margin-left: auto;
+   
+}
+
+
+.nav-contacts {
+   margin-left: px;
+}
+
+.nav-contacts:first-child {
+   margin-left: 0px;
 }
 
 .contacts.item:not(:last-child) {
  margin-right: 50px;
-
 }
 
 
-.contacts-item {
-   margin-left: 50px;
+.btn-mail {
+   width: 16px;
+   height: 12px;
+   cursor: pointer;
+   fill: #757575;
+   margin-right: 10px;
+}
 
+
+.btn-phone {
+   width: 16px;
+   height: 12px;
+   cursor: pointer;
+   fill: #757575;
+   margin-right: 10px;
+   margin-left: 30px;
+}
+
+.nav-contacts:hover .btn-phone {
+  fill: #2196F3;
+}
+
+.btn-phone:hover {
+   fill: #2196F3;
+}   
+
+
+.contacts-item {
 
    text-decoration: none;
    font-family: 'Roboto';
@@ -119,50 +158,13 @@
    color: var(--contacts-text-color);
 }
 
-.contacts-item:hover {
-color: var(--accent-text-color);
-}
-
-.hero__section {
-
-width: 100%;
-padding: 200px 0px;
-
-
-
-}
-
-.hero__title {
-
-   width: 696px;
-   height: 120px;
-   left: 452px;
-   top: 280px;
-
-   font-family: 'Roboto';
-   text-align: center;
-   font-weight: 900;
-   font-size: 44px;
-   line-height: 1;
-   letter-spacing: 0.06em;
-   text-transform: uppercase;
-
-
-
-   color:#FFFFFF;
-   padding-bottom: 30px;
-   margin: 0 auto;
-   width: 696px;
-
-}
-
 
 .contacts-item:hover {
-color: var(--accent-text-color);
-}
-
-.is-active {                
    color: var(--accent-text-color);
+}
+
+.contacts-item:hover .btn-mail {
+   fill: var(--accent-text-color);
 }
 
 
@@ -240,6 +242,7 @@ color: var(--accent-text-color);
    flex-wrap: wrap;
    flex-basis: calc(100% / 3 - 20px);
    padding-bottom: 94px;
+   padding-top: ;
 
  }
 
@@ -252,6 +255,10 @@ color: var(--accent-text-color);
    
 }
 
+
+.footer {
+   margin-top: 94px;
+}
 
 .content-cards:nth-child(3n) {
       margin-right: 0px;
@@ -304,9 +311,35 @@ color: var(--accent-text-color);
    margin-top: 0px;
  }
 
- .footer__logo {
-   
+ .contacts__footer:hover {
+   color:var(--accent-text-color);
+}
 
+.ft-container {
+   margin-left: auto;
+   margin-right: auto;
+   width: 1200px;
+   
+}
+
+.icons-title {
+   font-family: 'Roboto';
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+   padding-bottom: 20px;
+}
+
+.footer-icons {
+   width: 20px;
+   height: 20px;
+   fill: white;
+}
+
+.footer__logo {
+  
    display: inline-block;
    padding-bottom: 20px;
    padding-top: 60px;
@@ -323,9 +356,7 @@ color: var(--accent-text-color);
 
 .footer__contacts {
    padding-bottom: 60px; 
-  
-
-
+ 
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
@@ -353,8 +384,7 @@ color: var(--accent-text-color);
 }
 
 .adress {
-   
-   
+
    font-family: 'Roboto';
    font-style: normal;
    font-weight: 400;
@@ -372,10 +402,53 @@ color: var(--accent-text-color);
 .footer {
    background-color: var(--primary-background-color);
    padding-bottom: 60px;
+  
 }
 
+.section__footer {
+   display: flex;
+}
 
+.icons-section {
+   padding-top: 72px;
+   margin-left: 70px;
+   
+}
 
+.footer-container {
+   display: flex;
+}
 
+.footer-wrapper {
+   display: flex;
+   
+}
 
+.icons-background {
+   background: rgba(255, 255, 255, 0.1);
+   border-radius: 20px;
+   width: 44px;
+   height: 44px;
+   margin-right: 10px; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+.icons-background:hover {
+   background-color: #2196F3;
+}
 
+.icons-background:hover .card-icon {
+   fill: white;
+}
+
+.card-icon {
+   fill: #AFB1B8;
+   width: 20px;
+   height: 20px;
+}
+
+.worker-icons {
+   display: flex;
+}

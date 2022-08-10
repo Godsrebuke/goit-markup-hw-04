@@ -17,22 +17,37 @@
 
 <body class="body"> 
     
-        <div class="nav-container"> 
+    <div class="nav-container"> 
         <header class="header">
              <nav class="nav-menu">
-                    <a class="logo" href="./index.html"><span class="span__logo">Web</span>Studio</a>
+                    <a class="logo" href=""><span class="span__logo">Web</span>Studio</a>
     
                     <ul class="nav-items">
-                     <li> <a class="nav-link" href="./index.html">Студия</a> </li>
-                     <li> <a class="nav-link is-active" href="./portfolio.html">Портфолио</a> </li>
-                     <li> <a class="nav-link" href="">Контакты</a> </li>
+                     <li> <a class="nav-link"  href="./index.html">Студия</a> </li>
+                     <li> <a class="nav-link is-active"  href="./portfolio.html">Портфолио</a> </li>
+                     <li> <a class="nav-link"  href="">Контакты</a> </li>
                     </ul>
                 </nav>
                     <ul class="nav-adress">
-                    <li><a class="contacts-item" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-                    <li><a class="contacts-item" href="tel:+380961111111"> +38 096 111 11 11 </a> </li>  
+                        <li class="nav-contacts">
+                          <a class="contacts-item " href="mailto:info@devstudio.com"> 
+                            <svg class="btn-mail"> 
+                                <use href="/symbol-defs.svg#icon-envelope-1"> </use>
+                            </svg> 
+                            info@devstudio.com
+                          
+                          </a> 
+                        </li>
+                       
+                    <li class="nav-contacts"> 
+                      <a class="contacts-item " href="tel:+380961111111"">   
+                        <svg class="btn-phone"> 
+                          <use href="/symbol-defs.svg#icon-smartphone-1"> </use>
+                      </svg> 
+                      +38 096 111 11 11
+                    </a> 
+                    </li>  
                     </ul>
-                
                
         </header>
         </div>
@@ -144,27 +159,63 @@
 </div>
 </main>
     
-<footer>
-    <section class="footer">
-        <div class="nav-container">
-    
-        <a class="footer__logo" href=""><span class="span__logo">Web</span>Studio</a>
-        
-        <address> 
-        <ul>
-        <li class="footer__items"> <a class="adress" href=" "> г. Киев, пр-т Леси Украинки, 26 </a> </li>
-        <li class="footer__items">
+<footer class="footer">
+    <div class="footer-wrapper container"> 
+ <div class="footer-section">
 
-            <a class="footer__contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+ <a class="footer__logo" href=""><span class="span__logo">Web</span>Studio</a>
+ 
+ <address> 
+ <ul>
+ <li class="footer__items"> <a class="adress" href=" "> г. Киев, пр-т Леси Украинки, 26 </a> </li>
+ <li class="footer__items">
 
+     <a class="footer__contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+
+ </li>
+ <li class="footer__items"> <a class="footer__contacts" href="tel:+380961111111"> +38 096 111 11 11 </a>
         </li>
-        <li class="footer__items"> <a class="footer__contacts" href="tel:+380961111111"> +38 096 111 11 11 </a>
-        </li>
+        </ul>
+    </div> 
+    </address>
+    <div class="icons-section"> 
+    <p class="icons-title"> ПРИСОЕДИНЯЙТЕСЬ </p>
+    <ul class="worker-icons">
+    <li class="icons-background">  
+    <a class="icons-item" href="">
+    <svg class="footer-icons">
+    <use href="/symbol-defs.svg#icon-instagram-2"></use>
+    </svg>
+    </a>
+    </li>
+    <li class="icons-background"> 
+
+    <a class="icons-item" href="">
+    <svg class="footer-icons">
+     <use href="/symbol-defs.svg#icon-Vector-2"></use>
+    </svg>
+    </a>
+    </li>
+    <li class="icons-background">
+
+    <a class="icons-item" href="">
+    <svg class="footer-icons">
+    <use href="/symbol-defs.svg#icon-Vector-3"></use>
+    </svg>
+    </a>
+    </li>
+    <li class="icons-background"> 
+    <a class="icons-item" href="">
+    <svg class="footer-icons">
+ <use href="/symbol-defs.svg#icon-linkedin-1"></use>
+    </svg>
+    </a>
+    </li>
     </ul>
-</address>
+    </div>
+    </div>
+    </div>
+    </footer>
+    </body>
 
-
-</section>
-</div> 
-</footer>
- </html>
+</html> 
