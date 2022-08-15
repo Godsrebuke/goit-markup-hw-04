@@ -545,11 +545,6 @@
 
 
 
-.footer-icons {
-    width: 20px;
-    height: 20px;
-    fill: white;
-}
 .icons-title {
     font-family: 'Roboto';
     font-weight: 700;
@@ -558,20 +553,20 @@
     letter-spacing: 0.03em;
     color: #FFFFFF;
     padding-bottom: 20px;
-}
-
-.footer {
-    background-color: var(--primary-background-color);
-    padding-bottom: 10px;
-    
-}
-
-.footer__logo {
+ }
+ 
+ .footer-icons {
+    width: 20px;
+    height: 20px;
+    fill: white;
+ }
+ 
+ .footer__logo {
    
     display: inline-block;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     padding-top: 60px;
-
+ 
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -581,7 +576,7 @@
   
     color: var(--title-text-color);
  }
-
+ 
  .footer__contacts {
     padding-bottom: 60px; 
   
@@ -593,11 +588,59 @@
     color: rgba(255, 255, 255, 0.6);
    
  }
-
+ .footer-icons {
+    width: 20px;
+    height: 20px;
+    fill: white;
+ }
+ .icons-title {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+ }
+ 
+ .footer {
+    background-color: var(--primary-background-color);
+    padding-bottom: 10px;
+    
+ }
+ 
+ .footer__logo {
+   
+    display: inline-block;
+    
+    padding-top: 60px;
+ 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+  
+    color: var(--title-text-color);
+ }
+ 
+ .footer__contacts {
+    padding-bottom: 60px; 
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+   
+ }
+ 
  .footer__items {
     
     padding-bottom: 9px;
-
+ 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -609,40 +652,38 @@
     color: rgba(255, 255, 255, 0.6);
     
     
-}
-
-.adress {
-
+ }
+ 
+ .adress {
+ 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-
+ 
     color: var(--title-text-color);
-
-}
-.footer__contacts:hover {
+ 
+ }
+ .footer__contacts:hover {
     color: var(--accent-text-color);
-}
-
-
-
-.icons-section {
+ }
+ 
+ 
+ 
+ .icons-section {
     padding-top: 72px;
     margin-left: 100px;
-}
-
-
-
-.footer-wrapper {
+ }
+ 
+ 
+ 
+ .footer-wrapper {
     display: flex;
     
     height: 252px;
     
     
-}
-
-
-d
+ }
+ 
