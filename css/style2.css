@@ -182,7 +182,9 @@
  }
 
 .container { 
- 
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
 }
 
 
@@ -236,17 +238,20 @@
 
 }
 
+.main {
+   padding-bottom: 94px
+}
 
  .list-content {
+   padding-top: ;
    display: flex;
    flex-wrap: wrap;
    flex-basis: calc(100% / 3 - 20px);
-   padding-bottom: 94px;
-   padding-top: ;
 
  }
 
 .content-cards {
+  
   margin-right: 30px;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -257,7 +262,7 @@
 
 
 .footer {
-   margin-top: 94px;
+   -top: 94px;
 }
 
 .content-cards:nth-child(3n) {
@@ -275,7 +280,7 @@
 }
 
 .title-card {
-   margin-left: 24px;
+   padding-left: 24px;
    padding-top: 20px;
 
    font-family: 'Roboto';
@@ -365,6 +370,54 @@
    color: rgba(255, 255, 255, 0.6);
   
 }
+.footer-icons {
+   width: 20px;
+   height: 20px;
+   fill: white;
+}
+.icons-title {
+   font-family: 'Roboto';
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+   padding-bottom: 20px;
+}
+
+.footer {
+   background-color: var(--primary-background-color);
+   padding-bottom: 10px;
+   
+}
+
+.footer__logo {
+  
+   display: inline-block;
+   
+   padding-top: 60px;
+
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.19;
+   letter-spacing: 0.03em;
+ 
+   color: var(--title-text-color);
+}
+
+.footer__contacts {
+   padding-bottom: 60px; 
+ 
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 1.71;
+   letter-spacing: 0.03em;
+   color: rgba(255, 255, 255, 0.6);
+  
+}
 
 .footer__items {
    
@@ -399,30 +452,24 @@
    color: var(--accent-text-color);
 }
 
-.footer {
-   background-color: var(--primary-background-color);
-   padding-bottom: 60px;
-  
-}
 
-.section__footer {
-   display: flex;
-}
 
 .icons-section {
    padding-top: 72px;
-   margin-left: 70px;
-   
+   margin-left: 100px;
 }
 
-.footer-container {
-   display: flex;
-}
+
 
 .footer-wrapper {
    display: flex;
    
+   height: 252px;
+   
+   
 }
+
+
 
 .icons-background {
    background: rgba(255, 255, 255, 0.1);

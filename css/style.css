@@ -15,6 +15,7 @@
  
  
  .body {
+    
     background-color: #ffffff;
 
     font-family: 'Oleo Script', cursive;
@@ -31,8 +32,7 @@
    .container {
     margin-left: auto;
     margin-right: auto;
-    width: 1200;
- 
+    
 }
 
 .nav-container {
@@ -246,6 +246,13 @@
     border-radius: 4px;
 
  }
+
+ .button:hover,
+ .button:focus {
+
+   background-color: #188CE8;
+   color: var(--title-text-color);  
+ }
  
 
 .functions__icon:before {
@@ -333,7 +340,7 @@
 
 .work-section-header {
     margin-bottom: 50px;
-    margin-top: 94px;
+    padding-top: 94px;
     
     
     font-family: 'Roboto';
@@ -349,6 +356,7 @@
 
 .work-gallery {
     display: flex;
+    padding-top: 94px;
 
 }
 
@@ -364,6 +372,7 @@
     background-color:  #F5F4FA;
      
     padding: 94px;
+    margin-top: 94px;
 }
 
 
@@ -534,13 +543,13 @@
     color:var(--accent-text-color);
 }
 
-.ft-container {
-    margin-left: auto;
-    margin-right: auto;
-    width: 1200px;
-    
-}
 
+
+.footer-icons {
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
 .icons-title {
     font-family: 'Roboto';
     font-weight: 700;
@@ -551,16 +560,16 @@
     padding-bottom: 20px;
 }
 
-.footer-icons {
-    width: 20px;
-    height: 20px;
-    fill: white;
+.footer {
+    background-color: var(--primary-background-color);
+    padding-bottom: 10px;
+    
 }
 
 .footer__logo {
    
     display: inline-block;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     padding-top: 60px;
 
     font-family: 'Raleway';
@@ -618,28 +627,21 @@
     color: var(--accent-text-color);
 }
 
-.footer {
-    background-color: var(--primary-background-color);
-    padding-bottom: 60px;
-   
-}
 
-.section__footer {
-    display: flex;
-}
 
 .icons-section {
     padding-top: 72px;
-    margin-left: 70px;
-    
+    margin-left: 100px;
 }
 
-.footer-container {
-    display: flex;
-}
+
 
 .footer-wrapper {
     display: flex;
     
+    height: 252px;
+    
+    
 }
+
 
